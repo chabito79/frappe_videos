@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include videos *.css
+recursive-include videos *.csv
+recursive-include videos *.html
+recursive-include videos *.ico
+recursive-include videos *.js
+recursive-include videos *.json
+recursive-include videos *.md
+recursive-include videos *.png
+recursive-include videos *.py
+recursive-include videos *.svg
+recursive-include videos *.txt
+recursive-exclude videos *.pyc
